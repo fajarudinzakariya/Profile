@@ -1,5 +1,5 @@
 import React from "react"
-
+import { Link } from "react-router-dom"
 export default function RegisterPage() {
     return (
         <div className="flex flex-col justify-center flex-1 min-h-full px-6 py-12 lg:px-8">
@@ -84,12 +84,11 @@ export default function RegisterPage() {
                         </button>
                     </div>
                 </form>
-
                 <p className="mt-10 text-sm text-center text-gray-500">
                     Already have an account?
-                    <a href="./page/login.jsx" className="px-1 font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
+                    <Link to="/" className="px-1 font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
                         Sign In
-                    </a>
+                    </Link>
                 </p>
             </div>
         </div>
