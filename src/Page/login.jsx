@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Login() {
+export default function LoginPage() {
     return (
         <div className="flex flex-col justify-center flex-1 min-h-full px-6 py-12 lg:px-8">
             <div className="sm:mx-auto sm:w-full sm:max-w-sm">
@@ -52,8 +52,7 @@ export default function Login() {
                     <div>
                         <button
                             type="submit"
-                            className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                        >
+                            className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                             Sign in
                         </button>
                     </div>
@@ -61,7 +60,7 @@ export default function Login() {
 
                 <p className="mt-10 text-sm text-center text-gray-500">
                     Do Not Have an Account?
-                    <a href="#" className="px-1 font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
+                    <a href="./page/Register/register.jsx" className="px-1 font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
                         Sign Up
                     </a>
                 </p>
